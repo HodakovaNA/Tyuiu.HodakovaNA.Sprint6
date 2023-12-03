@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 using tyuiu.cources.programming.interfaces.Sprint6;
 
-namespace Tyuiu.HodakovaNA.Sprint6.Task2.V14.Lib
+namespace Tyuiu.HodakovaNA.Sprint6.Task3.V16.Lib
 {
-    public class DataService : ISprint6Task2V14
+    public class DataService : ISprint6Task3V16
     {
-        public double[] GetMassFunction(int startValue, int stopValue)
+        public int[,] Calculate(int[,] matrix)
         {
             throw new NotImplementedException();
         }
