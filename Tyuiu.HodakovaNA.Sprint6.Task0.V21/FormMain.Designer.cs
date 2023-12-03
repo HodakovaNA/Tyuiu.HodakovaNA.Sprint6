@@ -71,6 +71,7 @@ namespace Tyuiu.HodakovaNA.Sprint6.Task0.V21
             this.ImgBox_HNA.Size = new System.Drawing.Size(284, 45);
             this.ImgBox_HNA.TabIndex = 1;
             this.ImgBox_HNA.TabStop = false;
+            this.ImgBox_HNA.Click += new System.EventHandler(this.ImgBox_HNA_Click);
             // 
             // Lab1_HNA
             // 

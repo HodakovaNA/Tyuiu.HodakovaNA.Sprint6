@@ -66,5 +66,10 @@ namespace Tyuiu.HodakovaNA.Sprint6.Task0.V21
                 MessageBox.Show("Введены неверные данные", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void ImgBox_HNA_Click(object sender, EventArgs e)
+        {
+            ImgBox_HNA.Image = Image.FromFile(@"C:\Users\User\source\repos\Tyuiu.HodakovaNA.Sprint6\Tyuiu.HodakovaNA.Sprint6.Task0.V21\Task0.png");
+        }
     }
 }
