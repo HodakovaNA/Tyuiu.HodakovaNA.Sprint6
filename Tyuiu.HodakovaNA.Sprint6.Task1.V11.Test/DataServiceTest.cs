@@ -15,23 +15,27 @@ namespace Tyuiu.HodakovaNA.Sprint6.Task1.V11.Test
 
             int startValue = -5;
             int stopValue = 5;
-            double[] array = new double[-startValue + stopValue + 1];
+            int len = stopValue - startValue + 1;
 
-            array[0] = ;
-            array[1] = ;
-            array[2] = ;
-            array[3] = ;
-            array[4] = ;
-            array[5] = 0;
-            array[6] = ;
-            array[7] = ;
-            array[8] = ;
-            array[9] = ;
-            array[10] = ;
+            double[] wait;
+            wait = new double[len];
 
-            double[] checkArray = ds.GetMassFunction(startValue, stopValue);
+            wait[0] = -15.4;
+            wait[1] = -13.31;
+            wait[2] = -11.36;
+            wait[3] = -8;
+            wait[4] = 0; 
+            wait[5] = 1.83;
+            wait[6] = 4.49;
+            wait[7] = 6.78;
+            wait[8] = 10.58;
+            wait[9] = 17.38;
+            wait[10] = 23.76;
 
-            CollectionAssert.AreEqual(checkArray, array);
+            double[] res;
+            res = new double[len];
+            res = ds.GetMassFunction(startValue, stopValue);
+            CollectionAssert.AreEqual(wait, res);
         }
     }
 }

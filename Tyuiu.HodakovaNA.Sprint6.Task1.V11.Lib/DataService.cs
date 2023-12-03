@@ -12,14 +12,26 @@ namespace Tyuiu.HodakovaNA.Sprint6.Task1.V11.Lib
     {
         public double[] GetMassFunction(int startValue, int stopValue)
         {
-            double[] array = new double[-startValue + stopValue + 1];
-
-            for (int i = 0, x = startValue; x <= stopValue; x++, i++)
+            double[] vallueArray;
+            int len = (stopValue - startValue) + 1;
+            vallueArray = new double[len];
+            int count = 0;
+            
+            for (int x = startValue; x <= stopValue; x++)
             {
-                array[i] = Math.Round(((5 * x + 2.5) / (Math.Sin(x) + 3) + 2 + Math.Cos(x)), 2);
+                if (x + 1 != 0)
+                {
+                    vallueArray[count] = Math.Round((5 * x + 2.5) / (Math.Sin(x) + 3) + 2 * x + Math.Cos(x), 2);
+                    count++;
+                }
+                else
+                {
+                    vallueArray[count] = 0;
+                    count++;
+                }
             }
 
-            return array;
+            return vallueArray;
         }
     }
 }
