@@ -16,7 +16,7 @@ namespace Tyuiu.HodakovaNA.Sprint6.Task3.V16
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMain());
+            Application.Run(new FormMain_HNA());
         }
     }
 }
