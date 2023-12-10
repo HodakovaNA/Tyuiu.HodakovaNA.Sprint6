@@ -1,0 +1,5 @@
+C:\Users\User\source\repos\Tyuiu.HodakovaNA.Sprint6\Tyuiu.HodakovaNA.Sprint6.Task4.V15\obj\Debug\Tyuiu.HodakovaNA.Sprint6.Task4.V15.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Tyuiu.HodakovaNA.Sprint6\Tyuiu.HodakovaNA.Sprint6.Task4.V15\obj\Debug\Tyuiu.HodakovaNA.Sprint6.Task4.V15.FormMain_HNA.resources
+C:\Users\User\source\repos\Tyuiu.HodakovaNA.Sprint6\Tyuiu.HodakovaNA.Sprint6.Task4.V15\obj\Debug\Tyuiu.HodakovaNA.Sprint6.Task4.V15.Properties.Resources.resources
+C:\Users\User\source\repos\Tyuiu.HodakovaNA.Sprint6\Tyuiu.HodakovaNA.Sprint6.Task4.V15\obj\Debug\Tyuiu.HodakovaNA.Sprint6.Task4.V15.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Tyuiu.HodakovaNA.Sprint6\Tyuiu.HodakovaNA.Sprint6.Task4.V15\obj\Debug\Tyuiu.HodakovaNA.Sprint6.Task4.V15.csproj.CoreCompileInputs.cache
