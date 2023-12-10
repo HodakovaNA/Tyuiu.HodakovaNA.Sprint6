@@ -29,9 +29,9 @@ namespace Tyuiu.HodakovaNA.Sprint6.Task4.V15
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.DBox3Vivod_HNA = new System.Windows.Forms.GroupBox();
             this.Chart1Grafik_HNA = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.TBox3Res_HNA = new System.Windows.Forms.TextBox();
@@ -66,20 +66,22 @@ namespace Tyuiu.HodakovaNA.Sprint6.Task4.V15
             // 
             // Chart1Grafik_HNA
             // 
-            chartArea3.Name = "ChartArea1";
-            this.Chart1Grafik_HNA.ChartAreas.Add(chartArea3);
+            chartArea1.Name = "ChartArea1";
+            this.Chart1Grafik_HNA.ChartAreas.Add(chartArea1);
             this.Chart1Grafik_HNA.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend3.Name = "Legend1";
-            this.Chart1Grafik_HNA.Legends.Add(legend3);
+            legend1.Name = "Legend1";
+            this.Chart1Grafik_HNA.Legends.Add(legend1);
             this.Chart1Grafik_HNA.Location = new System.Drawing.Point(200, 93);
             this.Chart1Grafik_HNA.Name = "Chart1Grafik_HNA";
-            series3.ChartArea = "ChartArea1";
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.Chart1Grafik_HNA.Series.Add(series3);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.Chart1Grafik_HNA.Series.Add(series1);
             this.Chart1Grafik_HNA.Size = new System.Drawing.Size(584, 368);
             this.Chart1Grafik_HNA.TabIndex = 6;
             this.Chart1Grafik_HNA.Text = "График";
+            this.Chart1Grafik_HNA.Click += new System.EventHandler(this.Chart1Grafik_HNA_Click);
             // 
             // TBox3Res_HNA
             // 

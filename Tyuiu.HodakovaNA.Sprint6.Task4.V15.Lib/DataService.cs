@@ -12,22 +12,19 @@ namespace Tyuiu.HodakovaNA.Sprint6.Task4.V15.Lib
     {
         public double[] GetMassFunction(int startValue, int stopValue)
         {
-            int len = (stopValue - startValue) + 1;
-            double[] res = new double[len];
+            int step = (stopValue - startValue) + 1;
+            double[] res = new double[step];
             int count = 0;
-
             for (int x = startValue; x <= stopValue; x++)
             {
-                if (Math.Sin(x) + (2 * x) / 3 - Math.Cos(x) * (4 * x) != 0)
-                {
-                    res[count] = Math.Round(Math.Sin(x) + (2 * x) / 3 - Math.Cos(x) * (4 * x), 2);
-                    count++;
-                }
-                else
+                res[count] = Math.Sin(x) + 2.0 * x / 3.0 - Math.Cos(x) * 4.0 * x;
+                res[count] = Math.Round(res[count], 2);
+
+                if (double.IsNaN(res[count]))
                 {
                     res[count] = 0;
-                    count++;
                 }
+                count++;
             }
 
             return res;

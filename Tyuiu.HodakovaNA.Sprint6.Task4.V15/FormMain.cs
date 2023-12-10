@@ -87,5 +87,10 @@ namespace Tyuiu.HodakovaNA.Sprint6.Task4.V15
                 MessageBox.Show("Сбой при сохранение файла", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void Chart1Grafik_HNA_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
