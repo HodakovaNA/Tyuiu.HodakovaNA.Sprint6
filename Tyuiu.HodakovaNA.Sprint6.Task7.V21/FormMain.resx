@@ -117,10 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Lib1Uclovie_HNA.Text" xml:space="preserve">
-    <value>Дан файл InPutFileTask6V7.txt который может находится в любом месте на диске. 
-Загрузить файл в textBoxIn через openFileDialog. 
-Вывести третье слово каждой строки в результирующею строку и вывести ее в textBoxOut.
-</value>
+  <data name="Lib1Uslovie_HNA.Text" xml:space="preserve">
+    <value>Дан файл InPutFileTask7V21.csv в котором хранится матрица целочисленных значений.
+Загрузить файл через openFileDialog в объект dataGridViewIn. 
+Изменить в восьмом столбце значения не равные 5 на -1. Результат вывести в объект dataGridViewOut. 
+Сохранить результат в файл OutPutFileTask7.csv через saveFileDialog.</value>
   </data>
 </root>

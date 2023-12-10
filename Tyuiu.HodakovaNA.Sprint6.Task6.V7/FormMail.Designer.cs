@@ -35,11 +35,11 @@ namespace Tyuiu.HodakovaNA.Sprint6.Task6.V7
             this.GBox3Left_HNA = new System.Windows.Forms.GroupBox();
             this.TBox1Vvod_HNA = new System.Windows.Forms.TextBox();
             this.GBox1Top_HNA = new System.Windows.Forms.GroupBox();
+            this.Lib1Uclovie_HNA = new System.Windows.Forms.Label();
             this.But4Info_HNA = new System.Windows.Forms.Button();
             this.But2Dok_HNA = new System.Windows.Forms.Button();
             this.But1File_HNA = new System.Windows.Forms.Button();
             this.GBox2Top_HNA = new System.Windows.Forms.GroupBox();
-            this.Lib1Uclovie_HNA = new System.Windows.Forms.Label();
             this.GBox4Right_HNA.SuspendLayout();
             this.GBox3Left_HNA.SuspendLayout();
             this.GBox1Top_HNA.SuspendLayout();
@@ -99,6 +99,17 @@ namespace Tyuiu.HodakovaNA.Sprint6.Task6.V7
             this.GBox1Top_HNA.TabStop = false;
             this.GBox1Top_HNA.Text = "Условие";
             // 
+            // Lib1Uclovie_HNA
+            // 
+            this.Lib1Uclovie_HNA.AutoSize = true;
+            this.Lib1Uclovie_HNA.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Lib1Uclovie_HNA.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Lib1Uclovie_HNA.Location = new System.Drawing.Point(3, 16);
+            this.Lib1Uclovie_HNA.Name = "Lib1Uclovie_HNA";
+            this.Lib1Uclovie_HNA.Size = new System.Drawing.Size(598, 48);
+            this.Lib1Uclovie_HNA.TabIndex = 0;
+            this.Lib1Uclovie_HNA.Text = resources.GetString("Lib1Uclovie_HNA.Text");
+            // 
             // But4Info_HNA
             // 
             this.But4Info_HNA.Dock = System.Windows.Forms.DockStyle.Right;
@@ -140,17 +151,6 @@ namespace Tyuiu.HodakovaNA.Sprint6.Task6.V7
             this.GBox2Top_HNA.Size = new System.Drawing.Size(693, 102);
             this.GBox2Top_HNA.TabIndex = 5;
             this.GBox2Top_HNA.TabStop = false;
-            // 
-            // Lib1Uclovie_HNA
-            // 
-            this.Lib1Uclovie_HNA.AutoSize = true;
-            this.Lib1Uclovie_HNA.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Lib1Uclovie_HNA.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Lib1Uclovie_HNA.Location = new System.Drawing.Point(3, 16);
-            this.Lib1Uclovie_HNA.Name = "Lib1Uclovie_HNA";
-            this.Lib1Uclovie_HNA.Size = new System.Drawing.Size(685, 64);
-            this.Lib1Uclovie_HNA.TabIndex = 0;
-            this.Lib1Uclovie_HNA.Text = resources.GetString("Lib1Uclovie_HNA.Text");
             // 
             // FormMail
             // 
