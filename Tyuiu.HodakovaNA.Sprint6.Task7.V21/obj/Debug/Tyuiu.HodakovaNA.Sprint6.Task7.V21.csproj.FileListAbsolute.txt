@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\Tyuiu.HodakovaNA.Sprint6\Tyuiu.HodakovaNA.Sprint6.Task7.V21\obj\Debug\Tyuiu.HodakovaNA.Sprint6.Task7.V21.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Tyuiu.HodakovaNA.Sprint6\Tyuiu.HodakovaNA.Sprint6.Task7.V21\obj\Debug\Tyuiu.HodakovaNA.Sprint6.Task7.V21.FormMain.resources
+C:\Users\User\source\repos\Tyuiu.HodakovaNA.Sprint6\Tyuiu.HodakovaNA.Sprint6.Task7.V21\obj\Debug\Tyuiu.HodakovaNA.Sprint6.Task7.V21.Properties.Resources.resources
+C:\Users\User\source\repos\Tyuiu.HodakovaNA.Sprint6\Tyuiu.HodakovaNA.Sprint6.Task7.V21\obj\Debug\Tyuiu.HodakovaNA.Sprint6.Task7.V21.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Tyuiu.HodakovaNA.Sprint6\Tyuiu.HodakovaNA.Sprint6.Task7.V21\obj\Debug\Tyuiu.HodakovaNA.Sprint6.Task7.V21.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Tyuiu.HodakovaNA.Sprint6\Tyuiu.HodakovaNA.Sprint6.Task7.V21\bin\Debug\Tyuiu.HodakovaNA.Sprint6.Task7.V21.exe.config
+C:\Users\User\source\repos\Tyuiu.HodakovaNA.Sprint6\Tyuiu.HodakovaNA.Sprint6.Task7.V21\bin\Debug\Tyuiu.HodakovaNA.Sprint6.Task7.V21.exe
+C:\Users\User\source\repos\Tyuiu.HodakovaNA.Sprint6\Tyuiu.HodakovaNA.Sprint6.Task7.V21\bin\Debug\Tyuiu.HodakovaNA.Sprint6.Task7.V21.pdb
+C:\Users\User\source\repos\Tyuiu.HodakovaNA.Sprint6\Tyuiu.HodakovaNA.Sprint6.Task7.V21\bin\Debug\Tyuiu.HodakovaNA.Sprint6.Task7.V21.Lib.dll
+C:\Users\User\source\repos\Tyuiu.HodakovaNA.Sprint6\Tyuiu.HodakovaNA.Sprint6.Task7.V21\bin\Debug\tyuiu.cources.programming.interfaces.dll
+C:\Users\User\source\repos\Tyuiu.HodakovaNA.Sprint6\Tyuiu.HodakovaNA.Sprint6.Task7.V21\bin\Debug\Tyuiu.HodakovaNA.Sprint6.Task7.V21.Lib.pdb
+C:\Users\User\source\repos\Tyuiu.HodakovaNA.Sprint6\Tyuiu.HodakovaNA.Sprint6.Task7.V21\obj\Debug\Tyuiu.HodakovaNA.Sprint6.Task7.V21.FormAbout.resources
+C:\Users\User\source\repos\Tyuiu.HodakovaNA.Sprint6\Tyuiu.HodakovaNA.Sprint6.Task7.V21\obj\Debug\Tyuiu.HodakovaNA.Sprint6.Task7.V21.csproj.CopyComplete
+C:\Users\User\source\repos\Tyuiu.HodakovaNA.Sprint6\Tyuiu.HodakovaNA.Sprint6.Task7.V21\obj\Debug\Tyuiu.HodakovaNA.Sprint6.Task7.V21.exe
+C:\Users\User\source\repos\Tyuiu.HodakovaNA.Sprint6\Tyuiu.HodakovaNA.Sprint6.Task7.V21\obj\Debug\Tyuiu.HodakovaNA.Sprint6.Task7.V21.pdb

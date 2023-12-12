@@ -14,28 +14,33 @@ namespace Tyuiu.HodakovaNA.Sprint6.Task7.V21.Lib
     {
         public int[,] GetMatrix(string path)
         {
-            string[] lines = File.ReadAllLines(path);
+            string fileData = File.ReadAllText(path);
+            fileData = fileData.Replace('\n', '\r');
+            string[] lines = fileData.Split(new char[] { '\r' }, StringSplitOptions.RemoveEmptyEntries);
+
             int rows = lines.Length;
-            int columns = lines[0].Split(',').Length;
+            int columns = lines[0].Split(';').Length;
 
-            int[,] matrix = new int[rows, columns];
+            int[,] arrayValues = new int[rows, columns];
 
-            for (int i = 0; i < rows; i++)
+            for (int r = 0; r < rows; r++)
             {
-                string[] values = lines[i].Split(',');
-
-                for (int j = 0; j < columns; j++)
+                string[] line_r = lines[r].Split(';');
+                for (int c = 0; c < columns; c++)
                 {
-                    matrix[i, j] = int.Parse(values[j]);
-
-                    if (j == 7 && matrix[i, j] != 5)
-                    {
-                        matrix[i, j] = -1;
-                    }
+                    arrayValues[r, c] = Convert.ToInt32(line_r[c]);
                 }
             }
 
-            return matrix;
+            for (int r = 0; r < rows; r++)
+            {
+                if (arrayValues[r, 7] != 5)
+                {
+                    arrayValues[r, 7] = -1;
+                }
+            }
+
+            return arrayValues;
         }
     }
 }
