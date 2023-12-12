@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 using System.IO;
 
-using Tyuiu.HodakovaNA.Sprint6.Task4.V15.Lib
+using Tyuiu.HodakovaNA.Sprint6.Task4.V15.Lib;
 
 namespace Tyuiu.HodakovaNA.Sprint6.Task4.V15
 {
@@ -89,6 +89,11 @@ namespace Tyuiu.HodakovaNA.Sprint6.Task4.V15
         }
 
         private void Chart1Grafik_HNA_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormMain_HNA_Load(object sender, EventArgs e)
         {
 
         }

@@ -33,55 +33,36 @@ namespace Tyuiu.HodakovaNA.Sprint6.Task4.V15
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.DBox3Vivod_HNA = new System.Windows.Forms.GroupBox();
-            this.Chart1Grafik_HNA = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.TBox3Res_HNA = new System.Windows.Forms.TextBox();
+            this.Chart1Grafik_HNA = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.GBoxFon_HNA = new System.Windows.Forms.GroupBox();
+            this.But3Spavka_HNA = new System.Windows.Forms.Button();
+            this.But2Sohranit_HNA = new System.Windows.Forms.Button();
+            this.But1Vipolnit_HNA = new System.Windows.Forms.Button();
+            this.GBoxVvod_HNA = new System.Windows.Forms.GroupBox();
+            this.TBox2Stop_HNA = new System.Windows.Forms.TextBox();
+            this.TBox1Start_HNA = new System.Windows.Forms.TextBox();
+            this.Lib2Stop_HNA = new System.Windows.Forms.Label();
+            this.Lib1Start_HNA = new System.Windows.Forms.Label();
             this.GBoxUslovie_HNA = new System.Windows.Forms.GroupBox();
             this.Lib1Uslovie_HNA = new System.Windows.Forms.Label();
-            this.GBoxVvod_HNA = new System.Windows.Forms.GroupBox();
-            this.Lib1Start_HNA = new System.Windows.Forms.Label();
-            this.Lib2Stop_HNA = new System.Windows.Forms.Label();
-            this.TBox1Start_HNA = new System.Windows.Forms.TextBox();
-            this.TBox2Stop_HNA = new System.Windows.Forms.TextBox();
-            this.But1Vipolnit_HNA = new System.Windows.Forms.Button();
-            this.But2Sohranit_HNA = new System.Windows.Forms.Button();
-            this.But3Spavka_HNA = new System.Windows.Forms.Button();
             this.DBox3Vivod_HNA.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Chart1Grafik_HNA)).BeginInit();
             this.GBoxFon_HNA.SuspendLayout();
-            this.GBoxUslovie_HNA.SuspendLayout();
             this.GBoxVvod_HNA.SuspendLayout();
+            this.GBoxUslovie_HNA.SuspendLayout();
             this.SuspendLayout();
             // 
             // DBox3Vivod_HNA
             // 
             this.DBox3Vivod_HNA.Controls.Add(this.TBox3Res_HNA);
             this.DBox3Vivod_HNA.Dock = System.Windows.Forms.DockStyle.Left;
-            this.DBox3Vivod_HNA.Location = new System.Drawing.Point(0, 93);
+            this.DBox3Vivod_HNA.Location = new System.Drawing.Point(0, 117);
             this.DBox3Vivod_HNA.Name = "DBox3Vivod_HNA";
-            this.DBox3Vivod_HNA.Size = new System.Drawing.Size(200, 368);
+            this.DBox3Vivod_HNA.Size = new System.Drawing.Size(200, 344);
             this.DBox3Vivod_HNA.TabIndex = 5;
             this.DBox3Vivod_HNA.TabStop = false;
             this.DBox3Vivod_HNA.Text = "Вывод данных";
-            // 
-            // Chart1Grafik_HNA
-            // 
-            chartArea1.Name = "ChartArea1";
-            this.Chart1Grafik_HNA.ChartAreas.Add(chartArea1);
-            this.Chart1Grafik_HNA.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend1.Name = "Legend1";
-            this.Chart1Grafik_HNA.Legends.Add(legend1);
-            this.Chart1Grafik_HNA.Location = new System.Drawing.Point(200, 93);
-            this.Chart1Grafik_HNA.Name = "Chart1Grafik_HNA";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.Chart1Grafik_HNA.Series.Add(series1);
-            this.Chart1Grafik_HNA.Size = new System.Drawing.Size(584, 368);
-            this.Chart1Grafik_HNA.TabIndex = 6;
-            this.Chart1Grafik_HNA.Text = "График";
-            this.Chart1Grafik_HNA.Click += new System.EventHandler(this.Chart1Grafik_HNA_Click);
             // 
             // TBox3Res_HNA
             // 
@@ -92,8 +73,27 @@ namespace Tyuiu.HodakovaNA.Sprint6.Task4.V15
             this.TBox3Res_HNA.Name = "TBox3Res_HNA";
             this.TBox3Res_HNA.ReadOnly = true;
             this.TBox3Res_HNA.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.TBox3Res_HNA.Size = new System.Drawing.Size(194, 349);
+            this.TBox3Res_HNA.Size = new System.Drawing.Size(194, 325);
             this.TBox3Res_HNA.TabIndex = 0;
+            // 
+            // Chart1Grafik_HNA
+            // 
+            chartArea1.Name = "ChartArea1";
+            this.Chart1Grafik_HNA.ChartAreas.Add(chartArea1);
+            this.Chart1Grafik_HNA.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend1.Name = "Legend1";
+            this.Chart1Grafik_HNA.Legends.Add(legend1);
+            this.Chart1Grafik_HNA.Location = new System.Drawing.Point(200, 117);
+            this.Chart1Grafik_HNA.Name = "Chart1Grafik_HNA";
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.Chart1Grafik_HNA.Series.Add(series1);
+            this.Chart1Grafik_HNA.Size = new System.Drawing.Size(584, 344);
+            this.Chart1Grafik_HNA.TabIndex = 6;
+            this.Chart1Grafik_HNA.Text = "График";
+            this.Chart1Grafik_HNA.Click += new System.EventHandler(this.Chart1Grafik_HNA_Click);
             // 
             // GBoxFon_HNA
             // 
@@ -105,99 +105,9 @@ namespace Tyuiu.HodakovaNA.Sprint6.Task4.V15
             this.GBoxFon_HNA.Dock = System.Windows.Forms.DockStyle.Top;
             this.GBoxFon_HNA.Location = new System.Drawing.Point(0, 0);
             this.GBoxFon_HNA.Name = "GBoxFon_HNA";
-            this.GBoxFon_HNA.Size = new System.Drawing.Size(784, 93);
+            this.GBoxFon_HNA.Size = new System.Drawing.Size(784, 117);
             this.GBoxFon_HNA.TabIndex = 0;
             this.GBoxFon_HNA.TabStop = false;
-            // 
-            // GBoxUslovie_HNA
-            // 
-            this.GBoxUslovie_HNA.Controls.Add(this.Lib1Uslovie_HNA);
-            this.GBoxUslovie_HNA.Location = new System.Drawing.Point(6, 12);
-            this.GBoxUslovie_HNA.Name = "GBoxUslovie_HNA";
-            this.GBoxUslovie_HNA.Size = new System.Drawing.Size(337, 75);
-            this.GBoxUslovie_HNA.TabIndex = 2;
-            this.GBoxUslovie_HNA.TabStop = false;
-            this.GBoxUslovie_HNA.Text = "Условие";
-            // 
-            // Lib1Uslovie_HNA
-            // 
-            this.Lib1Uslovie_HNA.AutoSize = true;
-            this.Lib1Uslovie_HNA.Location = new System.Drawing.Point(7, 20);
-            this.Lib1Uslovie_HNA.Name = "Lib1Uslovie_HNA";
-            this.Lib1Uslovie_HNA.Size = new System.Drawing.Size(322, 39);
-            this.Lib1Uslovie_HNA.TabIndex = 0;
-            this.Lib1Uslovie_HNA.Text = "Протабулировать функцию на заданном диапазоне от -5 до 5.\r\nРезультат вывести в Te" +
-    "xtBox, построить график функции и \r\nсохранить в файл OutPutFileTask.txt по наати" +
-    "ю кнопки.";
-            // 
-            // GBoxVvod_HNA
-            // 
-            this.GBoxVvod_HNA.Controls.Add(this.TBox2Stop_HNA);
-            this.GBoxVvod_HNA.Controls.Add(this.TBox1Start_HNA);
-            this.GBoxVvod_HNA.Controls.Add(this.Lib2Stop_HNA);
-            this.GBoxVvod_HNA.Controls.Add(this.Lib1Start_HNA);
-            this.GBoxVvod_HNA.Location = new System.Drawing.Point(350, 13);
-            this.GBoxVvod_HNA.Name = "GBoxVvod_HNA";
-            this.GBoxVvod_HNA.Size = new System.Drawing.Size(157, 74);
-            this.GBoxVvod_HNA.TabIndex = 3;
-            this.GBoxVvod_HNA.TabStop = false;
-            this.GBoxVvod_HNA.Text = "Ввод данных";
-            // 
-            // Lib1Start_HNA
-            // 
-            this.Lib1Start_HNA.AutoSize = true;
-            this.Lib1Start_HNA.Location = new System.Drawing.Point(6, 19);
-            this.Lib1Start_HNA.Name = "Lib1Start_HNA";
-            this.Lib1Start_HNA.Size = new System.Drawing.Size(67, 13);
-            this.Lib1Start_HNA.TabIndex = 1;
-            this.Lib1Start_HNA.Text = "Старт шага:";
-            // 
-            // Lib2Stop_HNA
-            // 
-            this.Lib2Stop_HNA.AutoSize = true;
-            this.Lib2Stop_HNA.Location = new System.Drawing.Point(79, 19);
-            this.Lib2Stop_HNA.Name = "Lib2Stop_HNA";
-            this.Lib2Stop_HNA.Size = new System.Drawing.Size(69, 13);
-            this.Lib2Stop_HNA.TabIndex = 2;
-            this.Lib2Stop_HNA.Text = "Конец шага:";
-            // 
-            // TBox1Start_HNA
-            // 
-            this.TBox1Start_HNA.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.TBox1Start_HNA.Location = new System.Drawing.Point(6, 35);
-            this.TBox1Start_HNA.Name = "TBox1Start_HNA";
-            this.TBox1Start_HNA.Size = new System.Drawing.Size(67, 20);
-            this.TBox1Start_HNA.TabIndex = 3;
-            // 
-            // TBox2Stop_HNA
-            // 
-            this.TBox2Stop_HNA.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.TBox2Stop_HNA.Location = new System.Drawing.Point(82, 35);
-            this.TBox2Stop_HNA.Name = "TBox2Stop_HNA";
-            this.TBox2Stop_HNA.Size = new System.Drawing.Size(66, 20);
-            this.TBox2Stop_HNA.TabIndex = 4;
-            // 
-            // But1Vipolnit_HNA
-            // 
-            this.But1Vipolnit_HNA.BackColor = System.Drawing.Color.ForestGreen;
-            this.But1Vipolnit_HNA.Location = new System.Drawing.Point(513, 20);
-            this.But1Vipolnit_HNA.Name = "But1Vipolnit_HNA";
-            this.But1Vipolnit_HNA.Size = new System.Drawing.Size(75, 52);
-            this.But1Vipolnit_HNA.TabIndex = 4;
-            this.But1Vipolnit_HNA.Text = "Выполнить";
-            this.But1Vipolnit_HNA.UseVisualStyleBackColor = false;
-            this.But1Vipolnit_HNA.Click += new System.EventHandler(this.But1Vipolnit_HNA_Click);
-            // 
-            // But2Sohranit_HNA
-            // 
-            this.But2Sohranit_HNA.BackColor = System.Drawing.Color.RoyalBlue;
-            this.But2Sohranit_HNA.Location = new System.Drawing.Point(594, 20);
-            this.But2Sohranit_HNA.Name = "But2Sohranit_HNA";
-            this.But2Sohranit_HNA.Size = new System.Drawing.Size(75, 52);
-            this.But2Sohranit_HNA.TabIndex = 5;
-            this.But2Sohranit_HNA.Text = "Сохранить";
-            this.But2Sohranit_HNA.UseVisualStyleBackColor = false;
-            this.But2Sohranit_HNA.Click += new System.EventHandler(this.But2Sohranit_HNA_Click);
             // 
             // But3Spavka_HNA
             // 
@@ -210,6 +120,96 @@ namespace Tyuiu.HodakovaNA.Sprint6.Task4.V15
             this.But3Spavka_HNA.UseVisualStyleBackColor = false;
             this.But3Spavka_HNA.Click += new System.EventHandler(this.But3Spavka_HNA_Click);
             // 
+            // But2Sohranit_HNA
+            // 
+            this.But2Sohranit_HNA.BackColor = System.Drawing.Color.RoyalBlue;
+            this.But2Sohranit_HNA.Location = new System.Drawing.Point(622, 20);
+            this.But2Sohranit_HNA.Name = "But2Sohranit_HNA";
+            this.But2Sohranit_HNA.Size = new System.Drawing.Size(75, 52);
+            this.But2Sohranit_HNA.TabIndex = 5;
+            this.But2Sohranit_HNA.Text = "Сохранить";
+            this.But2Sohranit_HNA.UseVisualStyleBackColor = false;
+            this.But2Sohranit_HNA.Click += new System.EventHandler(this.But2Sohranit_HNA_Click);
+            // 
+            // But1Vipolnit_HNA
+            // 
+            this.But1Vipolnit_HNA.BackColor = System.Drawing.Color.ForestGreen;
+            this.But1Vipolnit_HNA.Location = new System.Drawing.Point(541, 20);
+            this.But1Vipolnit_HNA.Name = "But1Vipolnit_HNA";
+            this.But1Vipolnit_HNA.Size = new System.Drawing.Size(75, 52);
+            this.But1Vipolnit_HNA.TabIndex = 4;
+            this.But1Vipolnit_HNA.Text = "Выполнить";
+            this.But1Vipolnit_HNA.UseVisualStyleBackColor = false;
+            this.But1Vipolnit_HNA.Click += new System.EventHandler(this.But1Vipolnit_HNA_Click);
+            // 
+            // GBoxVvod_HNA
+            // 
+            this.GBoxVvod_HNA.Controls.Add(this.TBox2Stop_HNA);
+            this.GBoxVvod_HNA.Controls.Add(this.TBox1Start_HNA);
+            this.GBoxVvod_HNA.Controls.Add(this.Lib2Stop_HNA);
+            this.GBoxVvod_HNA.Controls.Add(this.Lib1Start_HNA);
+            this.GBoxVvod_HNA.Location = new System.Drawing.Point(378, 13);
+            this.GBoxVvod_HNA.Name = "GBoxVvod_HNA";
+            this.GBoxVvod_HNA.Size = new System.Drawing.Size(157, 74);
+            this.GBoxVvod_HNA.TabIndex = 3;
+            this.GBoxVvod_HNA.TabStop = false;
+            this.GBoxVvod_HNA.Text = "Ввод данных";
+            // 
+            // TBox2Stop_HNA
+            // 
+            this.TBox2Stop_HNA.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.TBox2Stop_HNA.Location = new System.Drawing.Point(82, 35);
+            this.TBox2Stop_HNA.Name = "TBox2Stop_HNA";
+            this.TBox2Stop_HNA.Size = new System.Drawing.Size(66, 20);
+            this.TBox2Stop_HNA.TabIndex = 4;
+            // 
+            // TBox1Start_HNA
+            // 
+            this.TBox1Start_HNA.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.TBox1Start_HNA.Location = new System.Drawing.Point(6, 35);
+            this.TBox1Start_HNA.Name = "TBox1Start_HNA";
+            this.TBox1Start_HNA.Size = new System.Drawing.Size(67, 20);
+            this.TBox1Start_HNA.TabIndex = 3;
+            // 
+            // Lib2Stop_HNA
+            // 
+            this.Lib2Stop_HNA.AutoSize = true;
+            this.Lib2Stop_HNA.Location = new System.Drawing.Point(79, 19);
+            this.Lib2Stop_HNA.Name = "Lib2Stop_HNA";
+            this.Lib2Stop_HNA.Size = new System.Drawing.Size(69, 13);
+            this.Lib2Stop_HNA.TabIndex = 2;
+            this.Lib2Stop_HNA.Text = "Конец шага:";
+            // 
+            // Lib1Start_HNA
+            // 
+            this.Lib1Start_HNA.AutoSize = true;
+            this.Lib1Start_HNA.Location = new System.Drawing.Point(6, 19);
+            this.Lib1Start_HNA.Name = "Lib1Start_HNA";
+            this.Lib1Start_HNA.Size = new System.Drawing.Size(67, 13);
+            this.Lib1Start_HNA.TabIndex = 1;
+            this.Lib1Start_HNA.Text = "Старт шага:";
+            // 
+            // GBoxUslovie_HNA
+            // 
+            this.GBoxUslovie_HNA.Controls.Add(this.Lib1Uslovie_HNA);
+            this.GBoxUslovie_HNA.Location = new System.Drawing.Point(6, 12);
+            this.GBoxUslovie_HNA.Name = "GBoxUslovie_HNA";
+            this.GBoxUslovie_HNA.Size = new System.Drawing.Size(366, 99);
+            this.GBoxUslovie_HNA.TabIndex = 2;
+            this.GBoxUslovie_HNA.TabStop = false;
+            this.GBoxUslovie_HNA.Text = "Условие";
+            // 
+            // Lib1Uslovie_HNA
+            // 
+            this.Lib1Uslovie_HNA.AutoSize = true;
+            this.Lib1Uslovie_HNA.Location = new System.Drawing.Point(6, 16);
+            this.Lib1Uslovie_HNA.Name = "Lib1Uslovie_HNA";
+            this.Lib1Uslovie_HNA.Size = new System.Drawing.Size(322, 39);
+            this.Lib1Uslovie_HNA.TabIndex = 0;
+            this.Lib1Uslovie_HNA.Text = "Протабулировать функцию на заданном диапазоне от -5 до 5.\r\nРезультат вывести в Te" +
+    "xtBox, построить график функции и \r\nсохранить в файл OutPutFileTask.txt по наати" +
+    "ю кнопки.";
+            // 
             // FormMain_HNA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -220,14 +220,15 @@ namespace Tyuiu.HodakovaNA.Sprint6.Task4.V15
             this.Controls.Add(this.GBoxFon_HNA);
             this.Name = "FormMain_HNA";
             this.Text = "Спринт 6 | Таск 4 | Вариант 15 | Ходакова Н.А.";
+            this.Load += new System.EventHandler(this.FormMain_HNA_Load);
             this.DBox3Vivod_HNA.ResumeLayout(false);
             this.DBox3Vivod_HNA.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Chart1Grafik_HNA)).EndInit();
             this.GBoxFon_HNA.ResumeLayout(false);
-            this.GBoxUslovie_HNA.ResumeLayout(false);
-            this.GBoxUslovie_HNA.PerformLayout();
             this.GBoxVvod_HNA.ResumeLayout(false);
             this.GBoxVvod_HNA.PerformLayout();
+            this.GBoxUslovie_HNA.ResumeLayout(false);
+            this.GBoxUslovie_HNA.PerformLayout();
             this.ResumeLayout(false);
 
         }
